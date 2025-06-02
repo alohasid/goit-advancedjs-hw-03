@@ -11,6 +11,7 @@ export default defineConfig(({ command }) => {
     },
     root: 'src',
     build: {
+      base: 'goit-advancedjs-hw-03',
       sourcemap: true,
       rollupOptions: {
         input: glob.sync('./src/*.html'),
